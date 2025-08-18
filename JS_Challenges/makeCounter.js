@@ -25,6 +25,7 @@ The counter should not expose its internal value directly (encapsulation).
 Methods should be chainable (optional bonus).
 */
 
+// O(1) T | O(1) S
 function makeCounter(initialValue = 0) {
     // Your implementation
     let count = initialValue;
